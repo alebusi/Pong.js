@@ -7,7 +7,8 @@ var pixi = require('pixi'),
     EventEmitter = require('event-emitter'),
     parseOctal = require('./utils').parseOctal,
     defaults = {
-        barHeight: 100,
+        barHeight: 150,
+        barwidth
         controls: {
             'up': null,
             'down': null
@@ -21,7 +22,7 @@ Player = function (game, options) {
 
     this.game = game;
     this.side = options.side;
-    this.width = config.BARS_WIDTH;
+    this.width = 30;
     this.height = options.height || defaults.barHeight;
     this.speed = options.speed || defaults.speed;
     this.lastUpdate = new Date().getTime();
