@@ -1,7 +1,7 @@
 
 module.exports = {
-	BG_COLOR: 0x222222,
-	BARS_WIDTH: 15,
+	BG_COLOR: 0xff0000,
+	BARS_WIDTH: 20,
 	LINES_DISTANCE: 20,
 	PLAYER_MARGIN: 10,
 	PLAYER_COLOR: 0xEEEEEE,
@@ -12,7 +12,7 @@ module.exports = {
         align: 'center'
     },
     LINES_COLOR: 0xEEEEEE,
-    BALL_COLOR: 0xEEEEEE,
-    BALL_SIZE: 10,
-    BALL_SPEED: 15
+    BALL_COLOR: 0x000000,
+    BALL_SIZE: 15,
+    BALL_SPEED: 10
 };
